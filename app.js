@@ -82,3 +82,12 @@ console.log(sum);
 let evens = [1, 2, 3, 4, 5, 6]
 
 console.log(evens.length);
+
+
+// 8. Create a function that checks whether array length is even or odd.
+
+function check() {
+    return (evens.length%2 === 0) ? "Even!" : "Odd";
+}
+
+console.log(check());
