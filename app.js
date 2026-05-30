@@ -183,3 +183,28 @@ while(j < usernames.length - 2) {
 
 
 console.log(usernames); // (2) ['Vijay', 'Priyanka']
+
+
+
+
+// 17. Remove 2 elements from middle of array.
+
+
+let midd = [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+midd.splice(3, 2)
+
+
+console.log(midd); // (6) [1, 2, 3, 6, 7, 8]
+
+
+// 18. Replace 3 middle elements with 5 new values.
+
+
+let mid2 = [1, 2, 3, 6, 7]
+
+mid2.splice(1, 3, 5, 4, 3, 2, 1)
+
+
+console.log(mid2);
