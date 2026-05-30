@@ -117,3 +117,23 @@ for(let i = 0; i < newarr.length; i++) {
 }
 
 console.log(upd); // (6) [10, 20, 30, 40, 50, 60]
+
+
+// 11. Remove last element and print removed value.
+
+let emp = [1, 2, 3, 4, 5, 6, 7]
+
+console.log(emp.pop()); // 7
+
+
+
+// 12. Keep removing elements until array becomes empty.
+
+
+let i = 0
+while(i < emp.length){
+    emp.pop()
+}
+
+
+console.log(emp); // []
