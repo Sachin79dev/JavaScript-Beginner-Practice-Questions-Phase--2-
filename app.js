@@ -233,3 +233,23 @@ for (let i = 0; i < half / 2; i++) {
 }
 
 console.log(rev);
+
+
+
+// 21. Sort numbers in ascending order.
+
+let sorted = [1, 9, 8, 3, 5, 6, 4, 2, 7]
+
+sorted.sort()
+
+console.log(sorted); // (9) [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
+// 22. Sort array so even numbers come first and odd later.
+sorted.sort((a, b) => (a % 2) - (b % 2));
+
+
+console.log(sorted); // (9) [2, 4, 6, 8, 1, 3, 5, 7, 9]
+
+
