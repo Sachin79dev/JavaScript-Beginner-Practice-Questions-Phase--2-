@@ -21,3 +21,11 @@ for (let j = 0; j < misle[5].length; j++) {
     console.log(misle[5][j]);
 }
 
+
+// Print the first and last element of an array.
+
+let firstLast = ["hello", "good", "bad", "guys!"]
+
+
+console.log(firstLast[0]);
+console.log(firstLast[firstLast.length -1]);
