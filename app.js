@@ -91,3 +91,29 @@ function check() {
 }
 
 console.log(check());
+
+
+// 9. Add 3 new elements at the end of array.
+
+
+
+let newarr = [10, 20, 30]
+let upd = []
+
+
+newarr.push(40)
+newarr.push(50)
+newarr.push(60)
+
+
+console.log(newarr); // (6) [10, 20, 30, 40, 50, 60]
+
+
+// 10. Add elements dynamically inside loop from another array.
+
+
+for(let i = 0; i < newarr.length; i++) {
+    upd.push(newarr[i])
+}
+
+console.log(upd); // (6) [10, 20, 30, 40, 50, 60]
