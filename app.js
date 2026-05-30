@@ -59,3 +59,18 @@ console.log(twoD[0][0]);
 console.log(twoD[1][0]);
 console.log(twoD[2][0]);
 
+
+
+// 6. Find the sum of all diagonal elements in a 3x3 matrix.
+
+
+let two3x3 = [
+    [10, 20, 30],
+    [11, 22, 33],
+    [99, 88, 77]
+]
+
+
+let sum = two3x3[0][0] + two3x3[0][2] + two3x3[1][1] + two3x3[2][0] + two3x3[2][2]
+
+console.log(sum);
