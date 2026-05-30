@@ -160,3 +160,26 @@ usernames.unshift("Satish", "Brijesh", "Mukul")
 
 
 console.log(usernames); // (7) ['Satish', 'Brijesh', 'Mukul', 'Santosh', 'Sachin', 'Vijay', 'Priyanka']
+
+
+// 15. Remove first element from array.
+
+
+usernames.shift()
+
+
+console.log(usernames); // (6) ['Brijesh', 'Mukul', 'Santosh', 'Sachin', 'Vijay', 'Priyanka']
+
+
+
+// 16. Remove first element repeatedly until only 2 elements remain.
+
+
+let j = 0 
+
+while(j < usernames.length - 2) {
+    usernames.shift()
+}
+
+
+console.log(usernames); // (2) ['Vijay', 'Priyanka']
