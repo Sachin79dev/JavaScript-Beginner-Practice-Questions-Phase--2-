@@ -74,3 +74,11 @@ let two3x3 = [
 let sum = two3x3[0][0] + two3x3[0][2] + two3x3[1][1] + two3x3[2][0] + two3x3[2][2]
 
 console.log(sum);
+
+
+// 7. Find total elements in an array without counting manually.
+
+
+let evens = [1, 2, 3, 4, 5, 6]
+
+console.log(evens.length);
