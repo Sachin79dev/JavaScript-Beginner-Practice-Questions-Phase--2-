@@ -253,3 +253,24 @@ sorted.sort((a, b) => (a % 2) - (b % 2));
 console.log(sorted); // (9) [2, 4, 6, 8, 1, 3, 5, 7, 9]
 
 
+
+// 23. Extract first 4 elements into new array.
+
+
+let extract = [1, 2, 3, 4, 5, 6, 7, 7, 8, 8]
+
+
+let extract2 = extract.slice(0, 4);
+
+
+console.log(extract2);
+
+
+// 24. Create a copy excluding first and last element.
+
+
+let firstnlast = extract.slice(1, -1)
+
+
+console.log(firstnlast);
+
