@@ -137,3 +137,26 @@ while(i < emp.length){
 
 
 console.log(emp); // []
+
+
+
+
+
+// 13. Add one username at beginning of array.
+
+let usernames = ["Sachin", "Vijay", "Priyanka"]
+
+
+usernames.unshift("Santosh")
+
+
+console.log(usernames); // (4) ['Santosh', 'Sachin', 'Vijay', 'Priyanka']
+
+
+
+
+// 14. Insert multiple elements at beginning without replacing existing ones.
+usernames.unshift("Satish", "Brijesh", "Mukul")
+
+
+console.log(usernames); // (7) ['Satish', 'Brijesh', 'Mukul', 'Santosh', 'Sachin', 'Vijay', 'Priyanka']
