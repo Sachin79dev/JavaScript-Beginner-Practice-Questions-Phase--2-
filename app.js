@@ -43,3 +43,19 @@ norm[norm.length - 2] = a;
 
 
 console.log(norm);
+
+
+
+// 5. Create a 2D array and print all first elements of inner arrays.
+
+let twoD = [
+    [10, 20, 30, 40],
+    [11, 22, 33, 44],
+    [2, 4, 5, 6, 7, 8]
+]
+
+
+console.log(twoD[0][0]);
+console.log(twoD[1][0]);
+console.log(twoD[2][0]);
+
