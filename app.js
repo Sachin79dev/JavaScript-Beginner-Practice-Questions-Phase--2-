@@ -274,3 +274,36 @@ let firstnlast = extract.slice(1, -1)
 
 console.log(firstnlast);
 
+
+
+// 25. Merge two arrays.
+
+let alpha = ["a", "b"]
+let numbers = [1, 2]
+
+
+let combined = alpha.concat(numbers)
+
+
+console.log(combined); // (4) ['a', 'b', 1, 2]
+
+
+// 26. Merge 3 arrays and remove duplicate values.
+
+
+let one = [1, 2, 3]
+let two = [2, 3, 4]
+let three = [4, 5, 6]
+
+
+let combine = one.concat(two, three)
+
+let unique = []
+
+for (i = 0; i < combine.length; i++) {
+    if (!unique.includes(combine[i])) {
+        unique.push(combine[i])
+    }
+}
+
+console.log(unique); // (6) [1, 2, 3, 4, 5, 6]
