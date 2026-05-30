@@ -208,3 +208,28 @@ mid2.splice(1, 3, 5, 4, 3, 2, 1)
 
 
 console.log(mid2);
+
+
+// 19. Reverse an array using method.
+
+
+let rev = [1, 2, 4, 5]
+
+reversing = rev.reverse()
+
+console.log(reversing); // (5) [5, 4, 2, 1]
+
+
+
+// 20. Reverse only first half of array.
+
+
+let half = Math.floor(rev.length / 2);
+
+for (let i = 0; i < half / 2; i++) {
+    let temp = rev[i];
+    rev[i] = rev[half - 1 - i];
+    rev[half - 1 - i] = temp;
+}
+
+console.log(rev);
