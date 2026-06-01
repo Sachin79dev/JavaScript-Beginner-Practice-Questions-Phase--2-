@@ -464,3 +464,12 @@ let origin = [1, 2, 3]
 let copy = [...origin]
 
 console.log(copy);
+
+
+
+// 40. Merge arrays and add extra values in between.
+
+
+let main = [...origin, ...copy, 4, 5, 6]
+
+console.log(main); // (9) [1, 2, 3, 1, 2, 3, 4, 5, 6]
