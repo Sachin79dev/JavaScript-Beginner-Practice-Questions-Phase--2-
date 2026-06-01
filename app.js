@@ -388,3 +388,14 @@ let allIndex = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for(let i = 0; i < allIndex.length; i++) {
     console.log(allIndex[i]);
 }
+
+
+// 34. Print elements at only even indexes.
+
+let all2 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for(let i = 0; i < all2.length; i++) {
+    if(all2[i] % 2 == 0) {
+        console.log(all2[i]); 
+    }
+}
