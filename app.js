@@ -318,3 +318,22 @@ let fruits = ["apple", "banana", "grapes", "pomo", "apple"]
 
 console.log(fruits.includes("apple"));
 
+
+
+
+// 28. Check if all elements of one array exist inside another.
+
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [2, 4, 5];
+
+
+function containAll(arr1, arr2) {
+    for(let item of arr1) {
+        if(!arr1.includes(item)){
+            return false;
+        }
+    }
+    return true;
+}
+
+console.log(containAll(array1, array2)); // true
