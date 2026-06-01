@@ -442,3 +442,14 @@ let assi2 = assi;
 assi.push(5);
 
 console.log(assi); // (5) [1, 2, 3, 4, 5]
+
+
+
+// 38. Create true copy so original array does not change.
+
+let assi3 = [...assi]
+
+assi3.push(6)
+
+console.log(assi); // (5) [1, 2, 3, 4, 5]
+console.log(assi3); // (6) [1, 2, 3, 4, 5, 6]
