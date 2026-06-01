@@ -429,3 +429,16 @@ for (let items of vow) {
 }
 
 console.log(count);
+
+
+
+
+// 37. Assign one array to another variable and modify second one.
+
+let assi = [1, 2, 3, 4]
+
+let assi2 = assi;
+
+assi.push(5);
+
+console.log(assi); // (5) [1, 2, 3, 4, 5]
