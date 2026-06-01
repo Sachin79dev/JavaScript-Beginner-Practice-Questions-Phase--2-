@@ -337,3 +337,12 @@ function containAll(arr1, arr2) {
 }
 
 console.log(containAll(array1, array2)); // true
+
+
+
+// 29. Find index of "Rahul" in array.
+
+let naming = ["Krishan", "Gopal", "Madhav", "Bansi", "Rahul", "Keshav"]
+
+
+console.log(naming.indexOf("Rahul"));
