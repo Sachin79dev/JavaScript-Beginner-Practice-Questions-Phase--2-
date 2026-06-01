@@ -307,3 +307,14 @@ for (i = 0; i < combine.length; i++) {
 }
 
 console.log(unique); // (6) [1, 2, 3, 4, 5, 6]
+
+
+
+
+// 27. Check whether "apple" exists in array.
+
+let fruits = ["apple", "banana", "grapes", "pomo", "apple"]
+
+
+console.log(fruits.includes("apple"));
+
