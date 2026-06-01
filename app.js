@@ -362,3 +362,11 @@ for(let i = 0; i<findPlace.length; i++) {
 }
 
 console.log(positionall); // (3) [1, 4, 7]
+
+
+
+// 31. Convert array into comma separated string.
+
+let str2 = [1, 2, 3, 4]
+
+console.log(str2.join(","));
