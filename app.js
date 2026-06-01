@@ -399,3 +399,13 @@ for(let i = 0; i < all2.length; i++) {
         console.log(all2[i]); 
     }
 }
+
+
+// 35. Print all values using for...of.
+
+let bikes = ["Gt 650", "Triumph", "Hunter", "Duke", "Ninja"]
+
+
+for(let items of bikes) {
+    console.log(items);
+}
