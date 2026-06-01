@@ -370,3 +370,11 @@ console.log(positionall); // (3) [1, 4, 7]
 let str2 = [1, 2, 3, 4]
 
 console.log(str2.join(","));
+
+
+
+// 32. Convert array into sentence format.
+
+let arrLove = ["I", "love", "JavaScript"];
+
+console.log(arrLove.join(" "));
