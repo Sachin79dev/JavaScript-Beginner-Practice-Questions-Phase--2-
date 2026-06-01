@@ -453,3 +453,14 @@ assi3.push(6)
 
 console.log(assi); // (5) [1, 2, 3, 4, 5]
 console.log(assi3); // (6) [1, 2, 3, 4, 5, 6]
+
+
+
+// 39. Copy array into new array.
+
+let origin = [1, 2, 3]
+
+
+let copy = [...origin]
+
+console.log(copy);
