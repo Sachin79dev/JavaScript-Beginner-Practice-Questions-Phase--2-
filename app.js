@@ -378,3 +378,13 @@ console.log(str2.join(","));
 let arrLove = ["I", "love", "JavaScript"];
 
 console.log(arrLove.join(" "));
+
+
+
+// 33. Print all array elements using loop.
+
+let allIndex = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for(let i = 0; i < allIndex.length; i++) {
+    console.log(allIndex[i]);
+}
