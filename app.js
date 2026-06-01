@@ -409,3 +409,23 @@ let bikes = ["Gt 650", "Triumph", "Hunter", "Duke", "Ninja"]
 for(let items of bikes) {
     console.log(items);
 }
+
+
+
+// 36. Count vowels from array of characters.
+
+let vow = ["Krishan", "Madhav", "Keshav", "Gopal", "Shyam", "kanhaiya"]
+
+let vowels = "aeiou";
+
+let count = 0;
+
+for (let items of vow) {
+    for (let ch of items.toLowerCase()) {
+        if (vowels.includes(ch)) {
+            count++;
+        }
+    }
+}
+
+console.log(count);
