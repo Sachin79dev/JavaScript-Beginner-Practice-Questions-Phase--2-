@@ -346,3 +346,19 @@ let naming = ["Krishan", "Gopal", "Madhav", "Bansi", "Rahul", "Keshav"]
 
 
 console.log(naming.indexOf("Rahul"));
+
+
+// 30. Find all positions of repeated number 5.
+
+
+let findPlace = [1, 5, 6, 3, 5, 2, 4, 5]
+
+let positionall = []
+
+for(let i = 0; i<findPlace.length; i++) {
+    if(findPlace[i] == 5) {
+        positionall.push(i)
+    }
+}
+
+console.log(positionall); // (3) [1, 4, 7]
